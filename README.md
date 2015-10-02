@@ -318,7 +318,7 @@ Now refresh the page, pretty cool huh. Lets also add the data about who is selli
     <ul>
       <% lots_of_products.each do |product| %>
         <li>
-          Product Name: "<%= product.name %>"" costs $<%= product.price %>
+          Product Name: "<%= product.name %>" costs $<%= product.price %>
           Sold by <%= product.user.name %>
         </li>
       <% end %>

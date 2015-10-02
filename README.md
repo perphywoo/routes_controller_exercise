@@ -233,9 +233,11 @@ Refresh the [localhost:3000/products](http://localhost:3000/products) page, you 
 We just put a SQL query into our view!!! Now lets use it:
 
     <% first_product = Product.first %>
+
     <p>
-      Product Name: "<%= first_product.name %>"" costs $<%= first_product.price %>
+      Product Name: "<%= first_product.name %>" costs $<%= first_product.price %>
     </p>
+
 
 Refresh the web page and you should see something like this in your view:
 
